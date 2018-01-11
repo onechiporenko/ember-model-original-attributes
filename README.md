@@ -36,7 +36,7 @@ Existing computed properties, attributes or relationships won't be overridden.
 
 Prefix `original` is used by default.
 
-Property `models` is a hash with keys equal to Model names. Its values are hashes with property `attrs`. Each `attrs` is an array with attribute names that should be 
+Property `models` is a hash with keys equal to Model names. Its values are hashes with property `attrs`. Each `attrs` is an array with attribute names that should be processed.
 
 ```javascript
 store.findRecord('user', '1').then(user => {
