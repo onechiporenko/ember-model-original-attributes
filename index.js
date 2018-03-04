@@ -1,6 +1,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-model-original-attributes',
-
+  name: 'ember-model-original-attributes'
 };
